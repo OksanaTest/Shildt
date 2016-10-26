@@ -1,4 +1,4 @@
-package com.threads.NewThredsRunnable;
+package com.threads.newThredsRunnable;
 
 public class MultiThreadDemo {
     public static void main(String[] args) {

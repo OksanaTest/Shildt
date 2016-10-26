@@ -1,14 +1,14 @@
-package com.threads.newThredsRunnable;
+package com.threads.joinWorkDemo;
 /*
-295
+297
  */
 public class NewThread implements Runnable{
-    String name; //thread name
+    String name;
     Thread t;
     NewThread(String name){
         this.name = name;
         t = new Thread(this, name);
-        System.out.println("new thread: " + t);
+        System.out.println("new thread " + t);
         t.start();
     }
     public void run(){
@@ -18,8 +18,7 @@ public class NewThread implements Runnable{
                 Thread.sleep(1000);
             }
         }catch (InterruptedException e){
-            System.out.println("new thread was interrupted");
+            System.out.println(name + " is interrupted");
         }
-        System.out.println(name + " was finished");
     }
 }
