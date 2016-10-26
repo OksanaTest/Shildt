@@ -7,7 +7,8 @@ public class CreateThread {
 
         Thread newThread = new Thread(new Runnable() {
             public void run() {
-                System.out.println("run(): " + Thread.currentThread().getName());
+                System.out.println("run(): " + Thread.currentThread().getName() + "\t" +
+                       "is Demon? " + Thread.currentThread().isDaemon());
             }
         });
         newThread.start();
