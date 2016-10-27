@@ -4,7 +4,7 @@ import java.util.concurrent.CountDownLatch;
 
 public class CDLDemo {
     public static void main(String[] args) {
-        CountDownLatch cdl = new CountDownLatch(5);
+        CountDownLatch cdl = new CountDownLatch(7);
         System.out.println("run thread to execute");
         new MyThread(cdl);
         try {
