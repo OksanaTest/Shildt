@@ -12,5 +12,8 @@ public class BarDemo {
         new MyThread(cb, "A");
         new MyThread(cb, "B");
         new MyThread(cb, "C");
+        new MyThread(cb, "X");
+        new MyThread(cb, "Y");
+        new MyThread(cb, "Z");
     }
 }
