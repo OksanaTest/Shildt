@@ -1,6 +1,6 @@
 package com.patterns.builderForArmies;
 
-public abstract class ArmyCommonBuilder extends Army{
+public abstract class ArmyCommonBuilder{
     Army army;
 
     void createArmy(){
