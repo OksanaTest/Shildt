@@ -20,3 +20,15 @@ public class Conversion {
         System.out.println("d is " + d + " b is " + b);
     }
 }
+/*
+RESULT:
+
+byte var before initialisation
+INT to BYTE:
+i is 257 b is 1
+DOUBLE to INT
+d is 323.142 i is 323
+DOUBLE to BYTE
+d is 323.142 b is 67
+
+ */
