@@ -1,4 +1,4 @@
-package com.patterns.builderForArmies;
+package com.patterns.creational.builderForArmies;
 
 public class RomeArmy extends ArmyCommonBuilder {
     @Override

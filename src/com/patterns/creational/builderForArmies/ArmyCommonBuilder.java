@@ -1,4 +1,4 @@
-package com.patterns.builderForArmies;
+package com.patterns.creational.builderForArmies;
 
 public abstract class ArmyCommonBuilder extends Army{
     Army army;

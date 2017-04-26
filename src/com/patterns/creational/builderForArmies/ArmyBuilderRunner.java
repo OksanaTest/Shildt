@@ -1,4 +1,4 @@
-package com.patterns.builderForArmies;
+package com.patterns.creational.builderForArmies;
 
 public class ArmyBuilderRunner {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.patterns.builderGenya;
+package com.patterns.creational.builderG;
 
 public class WebSite {
     private String name;

@@ -1,4 +1,4 @@
-package com.patterns.builderForArmies;
+package com.patterns.creational.builderForArmies;
 
 import java.util.Arrays;
 
